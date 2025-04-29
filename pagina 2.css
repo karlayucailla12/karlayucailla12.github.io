@@ -1,0 +1,74 @@
+body{
+    background-color: #8f0909; /* Color gris claro */
+    margin: 0;
+    padding: 0;
+}
+/*Estilo basico para la paquina*/
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('pag.html');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: rgb(136, 25, 25);
+    }
+    /*Contenedor principal */
+    .contenedor {
+    text-align: center;
+    background-color: rgba(168, 16, 16, 8.6); I
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    }
+    /*Estilo para Los enlaces de las opciones */
+    .opciones a {
+    display: block;
+    text-decoration: none;
+    background-color: #191b1b;
+    color: rgb(240, 234, 234);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+.opciones a:hover {
+background-color: #920808;
+}
+/* Estilo para el enlace "Volver" */
+.volver {
+display: inline-block;
+text-decoration: none;
+color: #0b0c0b;
+margin-top: 20px;
+font-size: 18px;
+}
+.volver:hover {
+    color: #070707;
+}
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.logo-movible {
+    width: 100px;
+    animation: moverlogo 4s infinite alternate ease-in-out;
+} 
+@keyframes moverLogo {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(30px);
+    }
+}
+
+    
+
+    
+ 

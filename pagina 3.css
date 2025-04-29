@@ -1,0 +1,17 @@
+
+body{
+    background-color: #a51313; /* Color gris claro */
+    margin: 0;
+    padding: 0;
+  }
+  .p
+.p1{
+    background-color: #a05555; /* Color gris claro */
+    margin: 0;
+    padding: 0;
+  }
+  .p1{
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+     color: #f8f5f5;
+}

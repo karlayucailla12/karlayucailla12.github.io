@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <img src="imagen/logo.UTA.jpg" alt="Logo de la Universidad Técnica de Ambato" class="logo">
+  <title>Universidad Técnica de Ambato</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #8a0b0b; /* Fondo rojo */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #e20e0e; /* Rojo oscuro */
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .container {
+      margin: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+      transition: transform 0.6s ease, filter 0.4s ease, box-shadow 0.6s ease;
+      transform-style: preserve-3d;
+      perspective: 800px;
+      filter: brightness(90%) saturate(80%);
+    }
+
+    .card:hover {
+      transform: rotateY(15deg) rotateX(10deg) scale(1.08);
+      filter: brightness(110%) saturate(120%);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+    }
+
+    .card h2 {
+      color: #b30000;
+      text-align: center;
+      margin-bottom: 10px;
+      transition: color 0.3s ease;
+    }
+
+    .card:hover h2 {
+      color: #FF6600;
+    }
+
+    .card p {
+      color: #333;
+      text-align: justify;
+    }
+
+    .animated-text {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 1.8em;
+      font-weight: bold;
+      color: white;
+      animation: moveText 4s infinite alternate;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    @keyframes moveText {
+      from {
+        transform: translateX(-50px) rotate(-5deg);
+        opacity: 0.5;
+      }
+      to {
+        transform: translateX(50px) rotate(5deg);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Aspectos importantes de la Universidad Tecnica de Ambato
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Ofertas Academicas Modernas</h2>
+    <p> Carreras como Ingeniería en Sistemas, 
+      Ingeniería Electrónica y Automatización, e 
+      Ingeniería Industrial, con mallas curriculares 
+      actualizadas y orientadas a la innovación.</p>
+  </div>
+
+  <div class="card">
+    <h2>Enfoque en la Tecnología y la Innovación</h2>
+    <p> FISEI promueve el uso de tecnologías emergentes
+       como inteligencia artificial, robótica, internet 
+       de las cosas (IoT), sistemas industriales inteligentes, entre otros.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Infraestructura Tecnológic</h2>
+    <p> Laboratorios bien equipados en áreas como redes, electrónica, simulación, programación y automatización industrial.
+    </p>
+  </div>
+</div>
+
+<div class="animated-text">
+  MUCHAS GRACIAS ESPERO QUE TE PUEDA SERVIR LA INFORMACION
+</div>
+
+</body>
+</html>

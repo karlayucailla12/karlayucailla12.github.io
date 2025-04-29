@@ -1,0 +1,12 @@
+body{
+    background-color: #4d0606; /* Color gris claro */
+    margin: 0;
+    padding: 0;
+  }
+  footer { 
+    text-align: center;
+    color: rgb(248, 243, 243) ;
+    background-image: url("imagen/descarga.jpg");
+    border: 40px solid ;
+    padding: 20px;
+}

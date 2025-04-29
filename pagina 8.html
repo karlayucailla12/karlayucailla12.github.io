@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bordes</title>
+  <link rel="stylesheet" href="pagina 8.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(129, 13, 13);
+    }
+
+    header {
+      text-align: center;
+      border-color: rgb(237, 237, 247);
+      border-style: dotted;
+      border-width: 2px 4px 8px;
+      margin-bottom: 20px;
+    }
+
+    header h2 {
+      text-shadow: 10px 10px 3px rgb(233, 226, 226); /* color corregido */
+    }
+
+    .animado {
+      width: 200px;
+      height: 200px;
+      background-color: rgb(231, 238, 229);
+      position: relative;
+      animation: example 4s infinite;
+      text-align: center;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 200%;
+      height: auto;
+      max-height: 200px;
+      object-fit: contain;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    table, td {
+      border: 2px solid rgb(238, 226, 226);
+      padding: 10px 20px;
+    }
+
+    @keyframes example {
+      0% {
+        background-color: rgb(235, 31, 31);
+        transform: rotate(0deg);
+      }
+      25% {
+        background-color: rgb(235, 31, 31);
+        transform: rotate(90deg);
+        color: blue;
+      }
+      50% {
+        background-color: rgb(235, 31, 31);
+        transform: rotate(180deg);
+        color: rgb(235, 31, 31);
+      }
+      75% {
+        background-color: rgb(235, 31, 31);
+        transform: rotate(270deg);
+        color:rgb(235, 31, 31);
+      }
+      100% {
+        background-color: rgb(235, 31, 31);
+        transform: rotate(360deg);
+        color: rgb(235, 31, 31);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>UNIVERSIDAD TÉCNICA DE AMBATO</h2>
+  </header>
+
+  <div class="animado">
+    <img src="imagen/logo.UTA.jpg" width="1000" height="800" alt="Logo FISEI" class="logo" />
+  </div>
+
+  <table>
+    <tr>
+      <td>Aulas modernas y cómodas</td>
+    </tr>
+    <tr>
+      <td>Bloques administrativos</td>
+    </tr>
+    <tr>
+      <td>Biblioteca</td>
+    </tr>
+    <tr>
+      <td>Laboratorios especializados</td>
+    </tr>
+    <tr>
+      <td>Auditorios</td>
+    </tr>
+  </table>
+</html>
+<body>
+
+</html>
+<body>
+  <a href='pagina 7.html'>Regresar</a>
+  <br>
+  <a href='pagina 9.html'>Siguiente página</a>
+</body>
+</html>
+</body>
+</html>
+
